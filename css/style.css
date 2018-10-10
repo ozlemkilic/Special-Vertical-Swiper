@@ -46,3 +46,18 @@ body {
     position: absolute;
     bottom: 15px;
 }
+@media screen and (max-width: 1280px){
+    .slide-text{
+        bottom: 10px !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .slide-text{
+        bottom: 30px !important;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 700px){
+    .slide-text{
+        bottom: 15px !important;
+    }
+}
